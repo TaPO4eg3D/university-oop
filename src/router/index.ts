@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import MainPage from '../views/MainPage.vue'
 
 const lab2 = import('@/views/Lab2.vue');
+const lab3 = import('@/views/Lab3.vue');
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -13,6 +14,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/lab2',
     name: 'lab2',
     component: () => lab2,
+  },
+  {
+    path: '/lab3',
+    name: 'lab3',
+    component: () => lab3,
   }
 ]
 

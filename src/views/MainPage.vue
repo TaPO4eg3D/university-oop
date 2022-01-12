@@ -17,13 +17,13 @@ export default defineComponent({
     const table = [
       {
         name: 'Лабораторная № 2',
-        description: 'Найти квадратный корень',
+        description: 'Найти решение квадратного уравнения',
         link: 'lab2',
       },
       {
         name: 'Лабораторная № 3',
-        description: '',
-        link: 'lab1',
+        description: 'Сортировка по убыванию',
+        link: 'lab3',
       },
       {
         name: 'Лабораторная № 4',
