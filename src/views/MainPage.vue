@@ -27,8 +27,8 @@ export default defineComponent({
       },
       {
         name: 'Лабораторная № 4',
-        description: '',
-        link: 'lab1',
+        description: 'Сложение двух матриц',
+        link: 'lab4',
       },
       {
         name: 'Лабораторная № 5',
