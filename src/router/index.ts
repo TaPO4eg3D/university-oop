@@ -10,6 +10,7 @@ const lab7 = import('@/views/Lab7.vue');
 const lab7_1 = import('@/views/Lab7_1.vue');
 const lab7_2 = import('@/views/Lab7_2.vue');
 const lab7_3 = import('@/views/Lab7_3.vue');
+const lab7_4 = import('@/views/Lab7_4.vue');
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -61,6 +62,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/lab7_3',
     name: 'lab7_3',
     component: () => lab7_3,
+  },
+  {
+    path: '/lab7_4',
+    name: 'lab7_4',
+    component: () => lab7_4,
   }
 ]
 
