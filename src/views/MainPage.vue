@@ -32,23 +32,23 @@ export default defineComponent({
       },
       {
         name: 'Лабораторная № 5',
-        description: '',
+        description: 'Постороенние диаграммы',
         link: 'lab5',
       },
       {
         name: 'Лабораторная № 6',
-        description: '',
-        link: 'lab1',
+        description: 'Движение упругого тела',
+        link: 'lab6',
       },
       {
         name: 'Лабораторная № 7',
         description: '',
-        link: 'lab1',
+        link: 'lab7',
       },
       {
         name: 'Лабораторная № 8',
         description: '',
-        link: 'lab1',
+        link: 'lab8',
       },
     ];
 
