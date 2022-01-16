@@ -33,7 +33,7 @@ export default defineComponent({
       {
         name: 'Лабораторная № 5',
         description: '',
-        link: 'lab1',
+        link: 'lab5',
       },
       {
         name: 'Лабораторная № 6',
