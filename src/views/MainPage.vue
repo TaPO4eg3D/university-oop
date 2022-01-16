@@ -42,12 +42,12 @@ export default defineComponent({
       },
       {
         name: 'Лабораторная № 7',
-        description: '',
+        description: 'Модальные окна',
         link: 'lab7',
       },
       {
         name: 'Лабораторная № 8',
-        description: '',
+        description: 'Графический редактор',
         link: 'lab8',
       },
     ];

@@ -19,7 +19,8 @@ export default defineComponent({
     const router = useRouter();
     
     const showBackButton = computed(() => {
-      return router.currentRoute.value.path !== '/';
+      return router.currentRoute.value.path !== '/'
+        && !router.currentRoute.value.path.includes('lab7_');
     });
 
     const openPage = (link: string) => {
