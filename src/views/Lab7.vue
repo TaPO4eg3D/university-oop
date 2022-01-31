@@ -13,10 +13,17 @@ el-card.box-card
 <script lang="ts">
 import { defineComponent } from 'vue'
 
+import { ipcRenderer } from 'electron';
+
 export default defineComponent({
   setup() {
     const openModalWindow = (index: number) => {
-      window.open(`/lab7_${index}`);
+      if (process.env.NODE_ENV === 'development') {
+        window.open(`/lab7_${index}`);
+      } else {
+        const modalPath = `app://./index.html#lab7_${index}`;
+        ipcRenderer.send('openModal', modalPath);
+      }
     };
 
     return {
